@@ -1,95 +1,50 @@
 //Aqui estão as perguntas
 const perguntas = [
     {
-        pergunta: "O que é JavaScript?",
+        pergunta: "Quantas horas tem um dia?",
         respostas: [
-            "Uma linguagem de marcação",
-            "Uma linguagem de programação",
-            "Um sistema operacional",
+            "20 horas",
+            "24 horas",
+            "48 horas",
         ],
         correta: 1,
     },
     {
-        pergunta: "Qual palavra-chave é usada para declarar uma variável em JavaScript?",
+        pergunta: "Qual o mês que tem 28 dias?",
         respostas: [
-            "var",
-            "let",
-            "const",
+            "Fevereiro",
+            "Dezembro",
+            "Todos os meses",
         ],
         correta: 2,
     },
     {
-        pergunta: "Qual é a função do operador '===' em JavaScript?",
+        pergunta: "Quantos dias tem em um ano?",
         respostas: [
-            "Compara dois valores para igualdade, sem verificar o tipo",
-            "Atribui um valor a uma variável",
-            "Compara dois valores para igualdade, verificando o tipo",
-        ],
-        correta: 2,
-    },
-    {
-        pergunta: "O que é o DOM em JavaScript?",
-        respostas: [
-            "Um método de criptografia",
-            "Um modelo de objeto para representar documentos HTML e XML",
-            "Um novo tipo de dado",
-        ],
-        correta: 2,
-    },
-    {
-        pergunta: "Qual é a finalidade do comando 'console.log()' em JavaScript?",
-        respostas: [
-            "Mostrar mensagens de erro no console",
-            "Registrar mensagens no console para depuração",
-            "Executar uma função específica",
-        ],
-        correta: 2,
-    },
-    {
-        pergunta: "O que significa a sigla 'JSON' em JavaScript?",
-        respostas: [
-            "JavaScript Object Notation",
-            "Just Some Random Object Names",
-            "JavaScript Operator Navigator",
+            "1000 dias",
+            "365 dias",
+            "465 dias",
         ],
         correta: 1,
     },
     {
-        pergunta: "Como se declara uma função em JavaScript?",
+        pergunta: "Resolva o cálculo: (1+1)",
         respostas: [
-            "function minhaFuncao()",
-            "var minhaFuncao = function()",
-            "As duas opções anteriores estão corretas",
+            "2",
+            "11",
+            "21",
         ],
-        correta: 3,
+        correta: 0,
     },
     {
-        pergunta: "Qual é a diferença entre '==' e '===' em JavaScript?",
+        pergunta: "Quantos meses tem em um ano?",
         respostas: [
-            "Nenhuma diferença, ambos comparam valores de forma estrita",
-            " '===' compara valores e tipos, enquanto '==' compara apenas valores",
-            "'==' compara valores e tipos, enquanto '===' compara apenas valores",
+            "14",
+            "24",
+            "12",
         ],
         correta: 2,
-    },
-    {
-        pergunta: "O que é um evento em JavaScript?",
-        respostas: [
-            "Uma função",
-            "Uma ação desencadeada, como um clique do mouse",
-            "Uma variável",
-        ],
-        correta: 2,
-    },
-    {
-        pergunta: "Qual é a função do operador '&&' em JavaScript?",
-        respostas: [
-            "Operador de concatenação de strings",
-            "Operador lógico AND",
-            "Operador de comparação de igualdade",
-        ],
-        correta: 2,
-    },
+    }
 ];
 
 
